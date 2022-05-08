@@ -36,8 +36,6 @@ const user = {
 console.log(user.greet()) // Functions are not valid
 console.log( JSON.stringify(user) );
 
-
-
 const friends = [
   { "name": "John Jairo", "nickname": "xJohn10x"},
   { "name": "Diego Alejandro", "nickname": "Byakuren"},
@@ -48,4 +46,9 @@ user.friends = friends;
 console.log(user);
 console.log(JSON.stringify(friends))
 
+let output = ''
 
+for ( let i = 0; i < friends.length; i++ ) {
+  output = output + `<li>${ friends[i].name }, ${ friends[i].nickname }</li>`
+}
+document.querySelector("#people").innerHTML = output;
