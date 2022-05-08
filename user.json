@@ -1,0 +1,12 @@
+{
+    "name": "Sebastián",
+    "lastname": "Carrillo",
+    "age": 20,
+    "nickname": "jscarrillo02",
+    "hoobies": ["programming", "gaming", "eat"],
+    "address": {
+        "street": "123 Main St",
+        "city": "London"
+    },
+    "married": false
+}
