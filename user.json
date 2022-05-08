@@ -8,5 +8,15 @@
         "street": "123 Main St",
         "city": "London"
     },
-    "married": false
+    "married": false,
+    "friends": [{
+        "name": "John Jairo",
+        "nickname": "xJohn10x"
+    }, {
+        "name": "Diego Alejandro",
+        "nickname": "Byakuren"
+    }, {
+        "name": "Juan David",
+        "nickname": "Atypical"
+    }]
 }
